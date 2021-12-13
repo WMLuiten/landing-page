@@ -1,0 +1,21 @@
+Color palette:
+Middle Red: D98D75
+Apricot: EEC3B3
+Linen: F8EBE2
+Charcoal 254552
+Rich Black FOGRA 29: 00060E
+
+
+* CSV */
+d98d75,eec3b3,f8ebe2,254552,00060e
+
+/* Array */
+["d98d75","eec3b3","f8ebe2","254552","00060e"]
+
+/* Object */
+{"Middle Red":"d98d75","Apricot":"eec3b3","Linen":"f8ebe2","Charcoal":"254552","Rich Black FOGRA 29":"00060e"}
+
+/* Extended Array */
+[{"name":"Middle Red","hex":"d98d75","rgb":[217,141,117],"cmyk":[0,35,46,15],"hsb":[14,46,85],"hsl":[14,57,65],"lab":[66,26,25]},{"name":"Apricot","hex":"eec3b3","rgb":[238,195,179],"cmyk":[0,18,25,7],"hsb":[16,25,93],"hsl":[16,63,82],"lab":[82,13,14]},{"name":"Linen","hex":"f8ebe2","rgb":[248,235,226],"cmyk":[0,5,9,3],"hsb":[25,9,97],"hsl":[25,61,93],"lab":[94,3,6]},{"name":"Charcoal","hex":"254552","rgb":[37,69,82],"cmyk":[55,16,0,68],"hsb":[197,55,32],"hsl":[197,38,23],"lab":[27,-8,-11]},{"name":"Rich Black FOGRA 29","hex":"00060e","rgb":[0,6,14],"cmyk":[100,57,0,95],"hsb":[214,100,5],"hsl":[214,100,3],"lab":[1,0,-4]}]
+Download
+
