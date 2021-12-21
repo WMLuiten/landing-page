@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,74 @@
     <link rel="stylesheet" href="./style.css">
     <title>Landing Page</title>
 </head>
+
 <body>
-    <div class="header">
-        <!-- This is the toppart of the website, including the title. -->
-        <div class="navbar">
-            <!-- navigation bar -->
-            Navigation bar
-        </div>
-        <div class="welcome">
-            <div class ="left">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goed here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+    <div class="wrapper" id="header">
+        <div class="header">
+            <div class="navbar">
+                <h2>Header logo</h2>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=BFHHddEyZZ8">movie tip one</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=7i5kiFDunk8">movie tip two</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=ErLD8P4VUjY">movie tip three</a></li>
+                </ul>
             </div>
-            <div class="right">
-                <img src='not_found' alt=' ' class=''>
+            <div class="hero">
+                <div class="left">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goed here under the main title. It's a smaller font and the
+                        color is lower contrast</p>
+                    <button>Sign up</button>
+                </div>
+                <div class="right">
+                    <img src='./img/hero-coffee.jpg' alt='Marble coffee table with a cup of coffe and a folded newspaper' class=''>
+                </div>
+
             </div>
-            
         </div>
     </div>
-    <div class="main">Some text in the middle here</div>
-    <div class="footer">Copyright &copy; Willemijn for The Odin Project 2021 </div>
+
+    <div class="wrapper" id="main">
+        <div class="main">
+            <div class="title">Some random information.</div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="img"></div>
+                    <div class="text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="box">
+                    <div class="img"></div>
+                    <div class="text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="box">
+                    <div class="img"></div>
+                    <div class="text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="box">
+                    <div class="img"></div>
+                    <div class="text">this is some subtext under an illustration or image</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper" id="quote">
+        <div class="quote">
+            <div class="text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up pace, or maybe people will actually read it. Who knows? All I know is that it looks nice. </div>
+            <div class="author"> - Thor, God of Thunder</div>
+        </div>
+    </div>
+    <div class="callToAction">
+        <div>
+            <h2>Call to Action</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button class="button">Sign up</button>
+    </div>
+    
+    <div class="wrapper" id="footer">
+        <div class="footer">Copyright &copy; Willemijn for The Odin Project 2021 </div>
+    </div>
+    
 </body>
+
 </html>
